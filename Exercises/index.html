@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Kurssi ATB00BY22 Kehykset - Harjoitukset"
+    />
+    <meta
+      name="author"
+      content="Kaisa Juhola"
+    />
+    <title>ATB00BY22 Kehykset - Harjoitukset</title>
+  </head>
+  <body>
+    <h1>ATB00BY22 Kehykset - Harjoitukset</h1>
+
+    <!-- Exercise II - Callbacks 2 -->
+    <div>
+      <h3>Exercise II - Callbacks 2</h3>
+      <button onclick="loadScriptA()">Start A</button>
+    </div>
+
+    <!-- Exercise III - Callbacks 3 -->
+    <div>
+      <h3>Exercise III - Callbacks 3</h3>
+      <button onclick="loadScriptB(() => delayedFunctionCallA())">
+        Start B (callback)
+      </button>
+      <button onclick="loadScriptsInOrder()">Start A then B</button>
+    </div>
+
+    <!-- Exercise IV - Promises -->
+    <div>
+      <h3>Exercise IV - Promises</h3>
+      <button onclick="startPromiseButtonClick()">Start Promise</button>
+    </div>
+
+    <!-- Exercise V - Promises, async/await -->
+    <div>
+      <h3>Exercise V - Promises, async/await</h3>
+      <button onclick="startPromiseButtonClick()">Start Async</button>
+    </div>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>
