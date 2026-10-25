@@ -1,6 +1,6 @@
 // delayedScriptB.js
 // Exercise III - Callbacks 3
-// Task 1 - Loading Scripts
+// Task 2 - More Script Loading
 
 console.log('delayedScriptB started..')
 
